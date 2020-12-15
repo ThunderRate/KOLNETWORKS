@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'kolnapp' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for kolnapp
+  pod 'SDWebImage', '~> 5.0'
+  pod 'IQKeyboardManagerSwift'
+  pod 'GrowingTextView', '0.7.2'
+  pod 'lottie-ios'
+  pod 'AppCenter'
+  pod 'Firebase/Core'
+  # add the Firebase pod for Google Analytics
+  pod 'Firebase/Analytics'
+  # add pods for any other desired Firebase products
+  # https://firebase.google.com/docs/ios/setup#available-pods
+
+  target 'kolnappTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'kolnappUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

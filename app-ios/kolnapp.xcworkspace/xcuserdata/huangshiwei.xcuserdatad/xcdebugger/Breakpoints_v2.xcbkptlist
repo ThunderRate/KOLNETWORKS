@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D92277A2-F288-4904-A1D4-5B31DEAC8E12"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0320AD3B-71FC-43EE-A258-CAA4381BC4B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kolnapp/View/VC/Wanted/ManagerReviewVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "sendComment(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0320AD3B-71FC-43EE-A258-CAA4381BC4B7 - f85dfcf425bdc303"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x7db2;&#x7d05;&#x5171;&#x548c;&#x570b;.ManagerReviewVC.sendComment(Any) -&gt; ()"
+                  moduleName = "&#x7db2;&#x7d05;&#x5171;&#x548c;&#x570b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huangshiwei/Documents/work/ProjectJ/kol-ios/kolnapp/View/VC/Wanted/ManagerReviewVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1305">
+               </Location>
+               <Location
+                  uuid = "0320AD3B-71FC-43EE-A258-CAA4381BC4B7 - fa439494885e3918"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in &#x7db2;&#x7d05;&#x5171;&#x548c;&#x570b;.ManagerReviewVC.sendComment(Any) -&gt; ()"
+                  moduleName = "&#x7db2;&#x7d05;&#x5171;&#x548c;&#x570b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huangshiwei/Documents/work/ProjectJ/kol-ios/kolnapp/View/VC/Wanted/ManagerReviewVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F959760-485B-4C2A-8822-FDEBDF6E9601"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kolnapp/View/VC/Wanted/ManagerReviewVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "sendComment(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BB143EB-A06D-4ADA-AE52-D2FF0704E8D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kolnapp/View/VC/Task/TaskStoreVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
