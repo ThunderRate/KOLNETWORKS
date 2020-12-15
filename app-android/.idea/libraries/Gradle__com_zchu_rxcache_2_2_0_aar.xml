@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zchu:rxcache:2.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7596f4bbd20dc74f4ab165dad752d93a/jetified-rxcache-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7596f4bbd20dc74f4ab165dad752d93a/jetified-rxcache-2.2.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zchu/rxcache/2.2.0/523c6fe1607a56f7b8492669622deb79a86c7eaa/rxcache-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zchu/rxcache/2.2.0/b3d4d60a96e6a225f213ab7af639e2a01bf1391d/rxcache-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

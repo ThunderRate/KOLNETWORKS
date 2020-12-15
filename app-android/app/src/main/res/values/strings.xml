@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">KOL NETWORKS</string>
+
+    <string name="nav_around">找專案</string>
+    <string name="nav_mission">我的專案</string>
+    <string name="nav_benefit">收益</string>
+
+    <string name="app_title_main">NETWORKS</string>
+    <string name="common_email">Email</string>
+    <string name="common_password">密碼</string>
+    <string name="common_member_rule">會員條款</string>
+    <string name="common_copyright">copyright © 2019 意見領袖大聯盟</string>
+    <string name="common_agree">同意</string>
+    <string name="common_deny">拒絕</string>
+    <string name="common_attend">我要參加</string>
+    <string name="common_send_link">提交連結</string>
+    <string name="common_fb">Facebook</string>
+    <string name="common_ig">Instagram</string>
+    <string name="common_yt">YouTube</string>
+    <string name="common_blog">Blog</string>
+    <string name="common_pre">上一步</string>
+    <string name="common_next">下一步</string>
+    <string name="common_done">完成</string>
+    <string name="common_send_pic_text">圖文審核</string>
+    <string name="common_set_expect_price">設定期望金額</string>
+
+    <string name="login_login">登入</string>
+    <string name="login_join_us">我要註冊</string>
+
+    <string name="login_step1">請先選擇一種平台綁定(1/5)</string>
+    <string name="login_step2">個人基本資料(2/5)</string>
+    <string name="login_step3">性別(3/5)</string>
+    <string name="login_step4">個人標籤(4/5)</string>
+    <string name="login_step5">歡迎你成功加入平台</string>
+    <string name="login_thx">可以到後台確認你的個人資料\n如果有適合的合作專案\n我們會馬上通知你喔！</string>
+    <string name="login_bind_account_hint">請輸入綁定帳號</string>
+    <string name="login_bind_name">公司名稱或真實姓名</string>
+    <string name="login_bind_phone">手機</string>
+    <string name="login_bind_birth">生日</string>
+
+    <string name="personal_1">受眾年齡</string>
+    <string name="personal_2">興趣專長</string>
+    <string name="personal_3">所屬社群</string>
+    <string name="personal_4">適合內容</string>
+    <string name="personal_5">職業屬性</string>
+    <string name="personal_6">個人風格</string>
+
+
+    <string name="joinus_enter_password">輸入密碼</string>
+    <string name="joinus_confirm_password">再次輸入密碼</string>
+    <string name="joinus_email_verify">Email驗證</string>
+
+    <string name="card_price">NTD %1s</string>
+    <string name="card_date">截止日期 %1s</string>
+
+    <string name="project_unit_id">專案編號</string>
+    <string name="project_stage">平台</string>
+    <string name="project_date">日期</string>
+    <string name="project_place">出席地點</string>
+    <string name="project_description">專案短介</string>
+    <string name="project_ask">我要發問</string>
+    <string name="project_ask2">我要提問</string>
+    <string name="project_ask_des">你的問題只有專案經理人可以看到，相關問題</string>
+    <string name="project_hint_apply">已申請，等待回覆</string>
+    <string name="project_hint_added">已加入，等待專案開始</string>
+    <string name="project_hint_finish">已提交連結，審核中</string>
+    <string name="project_hint_done">審核通過，待專案結束撥款</string>
+    <string name="project_hint_reject">已拒絕</string>
+    <string name="project_hint_be_reject_not_match">抱歉您不符資格</string>
+    <string name="project_hint_wait_pay">審核通過，待專案結束撥款</string>
+    <string name="project_hint_all_done">專案結束</string>
+    <string name="project_hint_say_sth">目前尚無公告</string>
+
+    <string name="project_apply_empty_title">新專案準備中，敬請期待。</string>
+    <string name="project_apply_empty_description">很快就會有新專案上架囉！歡迎定期查看此頁面。</string>
+    <string name="project_invite_empty_title">很快就會有新的合作囉！</string>
+    <string name="project_invite_empty_description">未來如果有適合你的合作專案，我們會馬上通知你。</string>
+    <string name="project_confirm_empty_title">目前還沒有已確認的合作喔！</string>
+    <string name="project_confirm_empty_description">歡迎定期查看「找專案」頁面，才不會漏接合作的最新訊息喔～</string>
+    <string name="project_finnish_empty_title">目前還沒有已結束的合作喔！</string>
+    <string name="project_already_applied_empty_title">歡迎到「找專案」瀏覽最新專案，主動申請你有興趣的合作！</string>
+
+    <string name="benefit_pay_title">目前還沒有已撥款的費用喔！</string>
+    <string name="benefit_pay_des">實際撥款日期請參考各專案的內容說明</string>
+
+
+    <string name="user_name">真實姓名</string>
+    <string name="user_email">Email</string>
+    <string name="user_phone">手機電話</string>
+    <string name="user_address">居住及通訊地址</string>
+    <string name="user_birth">生日</string>
+    <string name="user_line">LINE</string>
+    <string name="user_introduce">自我或公司介紹</string>
+    <string name="user_ig">Instagram</string>
+    <string name="user_fb">Facebook</string>
+    <string name="user_google">Google</string>
+    <string name="user_yt">YouTube</string>
+    <string name="user_blog">Blog</string>
+    <string name="user_exp_price">IG建議報價</string>
+
+
+    <string name="step_man">男性</string>
+    <string name="step_women">女性</string>
+    <string name="step_lgbtq">LGBTQ</string>
+    <string name="step_no_answer">不回答</string>
+    <string name="step_twn">台灣</string>
+    <string name="step_jpn">日本</string>
+    <string name="step_usa">美國</string>
+    <string name="login_place">出席地區</string>
+
+    <string name="benefit_ur_money">你的累積收益</string>
+    <string name="benefit_stage_money">平台服務費(%1s%%)</string>
+    <string name="benefit_can_draw">待撥款金額</string>
+    <string name="benefit_account">轉帳帳戶</string>
+    <string name="benefit_bank_code_hint">銀行代號</string>
+    <string name="benefit_name_hint">戶名</string>
+    <string name="benefit_bank_account_hint">帳號</string>
+    <string name="benefit_save">儲存</string>
+    <string name="benefit_not_enough_draw">尚未達可提領標準</string>
+    <string name="benefit_can_draw_enough">可提領</string>
+    <string name="benefit_draw">提領</string>
+
+    <string name="benefit_got">已撥款</string>
+    <string name="benefit_not_get">未撥款</string>
+    <string name="benefit_total">累積收益</string>
+
+    <string name="register_success">註冊成功</string>
+    <string name="register_gt_to_email">請到註冊的信箱驗證才能啟用APP喔</string>
+    <string name="register_confirm">確認</string>
+
+
+    <string name="push_code_hint">趕快邀請網紅朋友加入，完成一項任務後得獎金。</string>
+    <string name="benefit_branch_code_hint">分行代碼</string>
+    <string name="user_update">更新</string>
+    <string name="forgot_send_verify">發送驗證信</string>
+    <string name="forgot_enter_email">請輸入Email</string>
+    <string name="login_logout">登出</string>
+    <string name="common_understand">暸解</string>
+    <string name="update">更新</string>
+    <string name="hint_ig_id">請輸入 Instagram ID</string>
+    <string name="hint_fb_id">請輸入 Facebook 網址</string>
+    <string name="hint_yt_id">請輸入包含 /channel 的網址</string>
+    <string name="hint_bg_id">請輸入部落格網址</string>
+    <string name="expect_price">建議報價</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="common_start">開始</string>
+    <string name="project_project_going">專案進行中</string>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorBackgroundBlack">#000000</color>
+    <color name="colorBackgroundWhite">#FFFFFF</color>
+    <color name="colorTextBlack">#000000</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorTextGrey">#999999</color>
+    <color name="colorBackgroundGrey3">#333</color>
+    <color name="colorBackgroundGrey5">#555</color>
+    <color name="colorBackgroundGrey7">#777</color>
+    <color name="colorBackgroundGrey9">#999</color>
+    <color name="colorBackgroundGreyB">#BBB</color>
+    <color name="colorBackgroundGreyC">#CCC</color>
+    <color name="colorBackgroundGreyE">#EEE</color>
+    <color name="colorBackgroundDivider">#BBB</color>
+    <color name="colorGreenUpdate">#03DAC5</color>
+
+
+    <drawable name="black60">#99000000</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <color name="black40">#99000000</color>
+    <color name="DoalogBgColor">#EE343134</color>
+    <color name="mask_white_start">#BA000000</color>
+    <color name="mask_white_end">#00000000</color>
+</resources>

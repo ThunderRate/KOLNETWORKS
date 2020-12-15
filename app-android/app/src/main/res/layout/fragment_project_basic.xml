@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.projectinfo.ProjectBasicFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/textBlackMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    style="@style/textGreySmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_date"
+                    app:layout_constraintTop_toBottomOf="@+id/title" />
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    style="@style/textBlackMedium"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/card_price"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvDate"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tvDate" />
+
+                <Button
+                    android:id="@+id/btnSetPrice"
+                    style="@style/textWhiteSmall"
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:background="@color/colorBackgroundBlack"
+                    android:text="@string/common_set_expect_price"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvDate"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tvDate" />
+
+                <TextView
+                    android:id="@+id/tvHint"
+                    style="@style/textGreySmall"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:gravity="right"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvDate" />
+
+                <Button
+                    android:id="@+id/btnAgree"
+                    style="@style/textWhiteSmall"
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/colorBackgroundBlack"
+                    android:text="@string/common_agree"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvPrice" />
+
+                <Button
+                    android:id="@+id/btnStart"
+                    style="@style/textWhiteSmall"
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/colorBackgroundBlack"
+                    android:text="@string/common_start"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvPrice" />
+
+                <Button
+                    android:id="@+id/btnDeny"
+                    style="@style/textWhiteSmall"
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorBackgroundBlack"
+                    android:text="@string/common_deny"
+                    app:layout_constraintEnd_toStartOf="@+id/btnAgree"
+                    app:layout_constraintTop_toBottomOf="@+id/tvPrice" />
+
+                <Button
+                    android:id="@+id/btnAttend"
+                    style="@style/textWhiteSmall"
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/colorBackgroundBlack"
+                    android:text="@string/common_attend"
+                    app:layout_constraintEnd_toStartOf="@+id/btnDeny"
+                    app:layout_constraintTop_toBottomOf="@+id/tvPrice" />
+
+                <Button
+                    android:id="@+id/btnSendLink"
+                    style="@style/textWhiteSmall"
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/colorBackgroundBlack"
+                    android:text="@string/common_send_link"
+                    app:layout_constraintEnd_toStartOf="@+id/btnAttend"
+                    app:layout_constraintTop_toBottomOf="@+id/tvPrice" />
+
+                <Button
+                    android:id="@+id/btnSendPicText"
+                    style="@style/textWhiteSmall"
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorBackgroundBlack"
+                    android:text="@string/common_send_pic_text"
+                    app:layout_constraintEnd_toStartOf="@+id/btnSendLink"
+                    app:layout_constraintTop_toBottomOf="@+id/tvPrice" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/top"
+            tools:layout_editor_absoluteX="10dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tvPjIdTitle"
+                        style="@style/textBlackMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/project_unit_id" />
+
+                    <TextView
+                        android:id="@+id/tvPjId"
+                        style="@style/textGreyMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:id="@+id/tvPjStageTitle"
+                        style="@style/textBlackMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/project_stage" />
+
+                    <TextView
+                        android:id="@+id/tvPjStage"
+                        style="@style/textGreyMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:id="@+id/tvPjDateTitle"
+                        style="@style/textBlackMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/project_date" />
+
+                    <TextView
+                        android:id="@+id/tvPjDate"
+                        style="@style/textGreyMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp" />
+
+                    <!--                    <TextView-->
+                    <!--                        android:id="@+id/tvPjPlaceTitle"-->
+                    <!--                        style="@style/textBlackMedium"-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginTop="10dp"-->
+                    <!--                        android:text="@string/project_place" />-->
+
+                    <!--                    <TextView-->
+                    <!--                        android:id="@+id/tvPjPlace"-->
+                    <!--                        style="@style/textGreySmall"-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginTop="5dp" />-->
+
+                    <TextView
+                        android:id="@+id/tvPjDescriptionTitle"
+                        style="@style/textBlackMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/project_description" />
+
+                    <TextView
+                        android:id="@+id/tvPjDescription"
+                        style="@style/textGreySmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp" />
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

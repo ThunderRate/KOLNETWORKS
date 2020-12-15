@@ -1,0 +1,119 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="tabCustom" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#28FF28</item>
+        <item name="tabIndicatorHeight">1dp</item>
+        <item name="tabMinWidth">40dp</item>
+        <item name="tabPadding">5dp</item>
+        <item name="paddingTopNoTitle">10dp</item>
+        <item name="height">40dp</item>
+    </style>
+
+    <style name="textWhiteXXLarge">
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textWhiteXLarge">
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="textWhiteLarge">
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textWhiteMedium">
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textWhiteSmall">
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="textBlackXLarge">
+        <item name="android:textColor">@color/colorTextBlack</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="textBlackLarge">
+        <item name="android:textColor">@color/colorTextBlack</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textBlackMedium">
+        <item name="android:textColor">@color/colorTextBlack</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textGreenMedium">
+        <item name="android:textColor">@color/colorGreenUpdate</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textBlackSmall">
+        <item name="android:textColor">@color/colorTextBlack</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="textGreyMedium">
+        <item name="android:textColor">@color/colorTextGrey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textGreySmall">
+        <item name="android:textColor">@color/colorTextGrey</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="textCopyright">
+        <item name="android:textColor">@color/colorTextGrey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="headline_black_medium_left">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="body_gray_regular_center">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#676767</item>
+    </style>
+
+    <style name="body_main_color_medium_center">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="body_black_medium_center">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <!--自定義耗時對話方塊-->
+    <style name="CustomProgressDialog" parent="Theme.AppCompat.Dialog">
+        <!--此屬性控制懸浮窗背景是否變暗-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="content_white_regular_center">
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+</resources>

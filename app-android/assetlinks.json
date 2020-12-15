@@ -1,0 +1,18 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kolnetworks.koln",
+      "sha256_cert_fingerprints":
+      ["0F:5B:59:8C:29:B4:2E:9C:1D:D2:9B:A8:FD:5E:A8:04:75:08:EE:B9:80:4F:9E:0F:B8:EC:02:02:84:8A:33:7F"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kolnetworks.koln.debug",
+      "sha256_cert_fingerprints":
+      ["CF:33:4E:69:0B:4B:66:9A:37:10:32:E5:AF:C9:BF:0E:65:27:23:DE:FC:2D:44:58:DB:B6:AB:14:12:CA:C1:B2"]
+    }
+}]

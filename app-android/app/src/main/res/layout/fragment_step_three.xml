@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundBlack"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.bindtag.StepThreeFragment">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/textWhiteMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/login_step3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/mRadioGroupGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title">
+
+        <RadioButton
+            style="@style/textWhiteSmall"
+            android:id="@+id/rbMan"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/step_man" />
+
+        <RadioButton
+            style="@style/textWhiteSmall"
+            android:id="@+id/rbWomen"
+            android:layout_marginLeft="5dp"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/step_women" />
+
+        <RadioButton
+            style="@style/textWhiteSmall"
+            android:id="@+id/rbLgb"
+            android:layout_marginLeft="5dp"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/step_no_answer" />
+
+        <RadioButton
+            style="@style/textWhiteSmall"
+            android:id="@+id/rbNoAnswer"
+            android:visibility="gone"
+            android:layout_marginLeft="5dp"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/step_no_answer" />
+
+    </RadioGroup>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/place"
+        style="@style/textWhiteMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_place"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mRadioGroupGender" />
+
+    <RadioGroup
+        android:visibility="gone"
+        android:id="@+id/mRadioGroupPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/place">
+
+        <RadioButton
+            style="@style/textWhiteSmall"
+            android:id="@+id/rbTwn"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/step_twn" />
+
+        <RadioButton
+            style="@style/textWhiteSmall"
+            android:id="@+id/rbJpn"
+            android:layout_marginLeft="5dp"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/step_jpn" />
+
+        <RadioButton
+            style="@style/textWhiteSmall"
+            android:id="@+id/rbUsa"
+            android:layout_marginLeft="5dp"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/step_usa" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/btnNext"
+        style="@style/textWhiteMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/common_next"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mRadioGroupPlace" />
+
+    <TextView
+        android:id="@+id/btnPre"
+        style="@style/textWhiteMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:text="@string/common_pre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mRadioGroupPlace" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

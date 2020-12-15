@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_around">
+
+    <fragment
+        android:id="@+id/navigation_around"
+        android:name="com.kolnetworks.koln.ui.findproject.FindFragment"
+        android:label="@string/nav_around"
+        tools:layout="@layout/fragment_around" />
+
+    <fragment
+        android:id="@+id/navigation_mission"
+        android:name="com.kolnetworks.koln.ui.myproject.MyProjectFragment"
+        android:label="@string/nav_mission"
+        tools:layout="@layout/fragment_mission" />
+
+    <fragment
+        android:id="@+id/navigation_benefit"
+        android:name="com.kolnetworks.koln.ui.benefit.BenefitFragment"
+        android:label="@string/nav_benefit"
+        tools:layout="@layout/fragment_benefit" />
+</navigation>
